@@ -1,0 +1,76 @@
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 50px;
+}
+#contact form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#contacttitle{
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(74, 74, 74);
+    margin-bottom: 15px;
+}
+
+#contact .list{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact .list label{
+    font-size: 20px;
+    font-weight: 33;
+    color: rgb(74, 74, 74);
+}
+#contact .list input, textarea{
+    width: 90%;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border: 1px solid rgb(71, 71, 70);
+}
+
+#contactbtn{
+    padding: 10px 40px 10px 40px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#contactbtn button:hover{
+    border: 2px solid palevioletred;
+    background: transparent;
+    color: palevioletred;
+}
+
+#loginbtn svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
